@@ -11,3 +11,6 @@ Eine kurze Erklärung zu den Dateien in diesem Ordner:
 4. index.js: Die Haupt-JavaScript-Datei
 5. package-lock.json: Eine automatisch generierte Datei, die die genauen Versionen aller im Projekt verwendeten Abhängigkeiten auflistet.
 6. package.json: Eine Datei, die Informationen über das Projekt sowie die Abhängigkeiten enthält, die es benötigt.
+
+---
+Hi Johannes, hier ist der Kommentar von Tobias :wave:
