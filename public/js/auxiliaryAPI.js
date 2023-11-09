@@ -1,11 +1,9 @@
 exports.celsiusToFahrenheit = function (x){
- return x*(9/5)
+ return (x*(9/5))+32
 }
 
-exports.fahrenheitToCelcius = function (fahrenheit){
- if (true) {
-    return (fahrenheit-32)*(5/1)
- }   
+exports.fahrenheitToCelsius = function (fahrenheit) {
+    return (fahrenheit - 32) * (5/9);
 }
 
 exports.getGreetingDependOnTime =  function (myDate) {

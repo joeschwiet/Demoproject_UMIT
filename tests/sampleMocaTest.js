@@ -8,6 +8,12 @@ function sum(arr) {
     }
     return res;
 }
+function multiply(a, b) {
+    return a * b;
+}
+function subtract(a, b) {
+    return a - b;
+}
 
 describe('#sum()', function () {
 
@@ -17,8 +23,18 @@ describe('#sum()', function () {
     })
 
     // test a functionality
+
     it('should add numbers', function () {
-        expect(sum([1, 2, 3, 4, 5])).to.equal(15);
+        const summe = sum([1,2,3,4,5,6,7]);
+        expect(summe).to.equal(28);
+    })
+    it('shoud multiply numbers', function() {
+        const result = multiply(10,5);
+        expect(result).to.equal(50);
+    })
+    it('should substracting numbers',function()    {
+        const result = subtract(20,5);
+        expect(result).to.equal(15);
     })
 
 });
